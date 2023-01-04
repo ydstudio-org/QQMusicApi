@@ -92,5 +92,5 @@ function onListening() {
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
   console.log(`Listening on \n http://localhost:${addr.port} \n http://127.0.0.1:${addr.port}`);
-  console.log(`配置QQ号/wxuin 为：${global.QQ}`);
+  console.log(`配置QQ号/微信号 为：${global.QQ}`);
 }
